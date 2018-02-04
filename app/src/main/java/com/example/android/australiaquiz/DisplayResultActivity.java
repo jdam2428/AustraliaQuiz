@@ -1,8 +1,10 @@
 package com.example.android.australiaquiz;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -19,45 +21,21 @@ public class DisplayResultActivity extends AppCompatActivity {
 
     int score = 0;
 
+    String s = getIntent().getStringExtra("SCORE");
+
 
     /**
      * Called when the user taps the get result button
      */
-    public int getResult(View view) {
-        EditText nameField = (EditText) findViewById(R.id.insert_name);
-        String name = nameField.getText().toString();
-
-        RadioButton statesRadioButton = findViewById(R.id.q2_radio_button_1);
-        boolean hasStatesSix = statesRadioButton.isChecked();
-
-        RadioButton fruitRadioButton = findViewById(R.id.q3_radio_button_1);
-        boolean hasFruit = fruitRadioButton.isChecked();
-
-        return score;
+    public void getResult(View view) {
+        int score = getIntent().getIntExtra("SCORE", 0);
+        Context context = getApplicationContext();
+        CharSequence text = "Your score is " + score + "/8.";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(this, text, Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.show();
     }
-
-    /**
-     * Calculates the score of the user.
-     *
-     * @param addStates is whether or not the user has selected 6 states
-     * @param addFruit is whether or not the user has selected fruit
-     */
-    public int calculateResult(boolean addStates, boolean addFruit) {
-        int score = 0;
-        if (addStates=true) {
-            score = score + 1;
-        }
-        if (addFruit=true) {
-            score = score + 1;
-        }
-
-        return score;
-    }
-
-
-
-
-
 
 
     /**
