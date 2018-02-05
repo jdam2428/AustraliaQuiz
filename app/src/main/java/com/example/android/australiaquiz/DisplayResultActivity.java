@@ -19,11 +19,6 @@ public class DisplayResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display_result);
     }
 
-    int score = 0;
-
-    String s = getIntent().getStringExtra("SCORE");
-
-
     /**
      * Called when the user taps the get result button
      */

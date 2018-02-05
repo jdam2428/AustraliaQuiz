@@ -32,16 +32,16 @@
     <string name="question_3">3. What is a quandong?</string>
 
     <!-- Radio button 1 for question 3 of the quiz [CHAR LIMIT=NONE]-->
-    <string name="q3_radio_button_1">Fruit</string>
+    <string name="q3_radio_button_1">A fruit</string>
 
     <!-- Radio button 2 for question 3 of the quiz [CHAR LIMIT=NONE]-->
-    <string name="q3_radio_button_2">Animal</string>
+    <string name="q3_radio_button_2">An animal</string>
 
     <!-- Radio button 3 for question 3 of the quiz [CHAR LIMIT=NONE]-->
-    <string name="q3_radio_button_3">Musical instrument</string>
+    <string name="q3_radio_button_3">A musical instrument</string>
 
     <!-- Question 4 of the quiz [CHAR LIMIT=NONE]-->
-    <string name="question_4">4. Which of the following swimwear brands are Australian? Tick all the correct answers.</string>
+    <string name="question_4">4. Which of the following swimwear brands are originally from Australia? Tick all the correct answers.</string>
 
     <!-- Check box 1 for question 4 of the quiz [CHAR LIMIT=NONE]-->
     <string name="billabong">Billabong</string>
@@ -89,7 +89,7 @@
     <string name="q7_radio_button_3"></string>
 
     <!-- Question 8 of the quiz [CHAR LIMIT=NONE]-->
-    <string name="question_8">8. Where is the largest population of Australian expats?</string>
+    <string name="question_8">8. In which country is the largest population of Australian expats?</string>
 
     <!-- Radio button 1 for question 8 of the quiz [CHAR LIMIT=NONE]-->
     <string name="q8_radio_button_1">America</string>
@@ -104,6 +104,12 @@
     <string name="submit">Submit</string>
 
     <!-- Text saying the quiz has been finished [CHAR LIMIT=NONE]-->
-    <string name="congratulations">Congratulations! You finished the quiz.</string>
+    <string name="congratulations">Congratulations!\nYou finished the quiz.</string>
+
+    <!-- Text in button to calculate result [CHAR LIMIT=20]-->
+    <string name="calculate">CALCULATE RESULT</string>
+
+    <!-- Text in button to calculate result [CHAR LIMIT=20]-->
+    <string name="restart">RESTART QUIZ</string>
 
 </resources>

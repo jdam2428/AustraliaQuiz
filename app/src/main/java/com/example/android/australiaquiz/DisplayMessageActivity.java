@@ -27,7 +27,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Q1
         EditText nameField = findViewById(R.id.insert_name);
         String q1Answer = nameField.getText().toString();
-        if (q1Answer == "Canberra") {
+        if (q1Answer.equals("Canberra")) {
             score = score + 1;
         }
 
