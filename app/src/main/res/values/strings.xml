@@ -89,7 +89,7 @@
     <string name="q7_radio_button_3"></string>
 
     <!-- Question 8 of the quiz [CHAR LIMIT=NONE]-->
-    <string name="question_8">8. In which country is the largest population of Australian expats?</string>
+    <string name="question_8">8. Where is the largest population of Australian expats?</string>
 
     <!-- Radio button 1 for question 8 of the quiz [CHAR LIMIT=NONE]-->
     <string name="q8_radio_button_1">America</string>
